@@ -1,0 +1,33 @@
+@import "./variables";
+@import "./responsive";
+
+.favorite {
+  padding: 10px 40px;
+  &-container {
+    margin-top: 30px;
+  }
+  &-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 0 auto;
+    span {
+      transition: all 0.4s;
+      &:hover {
+        color: $first-color;
+        cursor: pointer;
+      }
+    }
+  }
+
+  img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    transition: all 0.3s;
+    cursor: pointer;
+    &:hover {
+      scale: 1.2;
+    }
+  }
+}
