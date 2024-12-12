@@ -1,6 +1,6 @@
 # 🏠JBL-Website
 
-In this repo, the website of the JBL brand has been cloned using Html and Css.
+In this repo, the website of the JBL brand has been cloned using Html Css and SCSS.
 
 # 🚀Features
 
@@ -8,11 +8,15 @@ In this repo, the website of the JBL brand has been cloned using Html and Css.
 
 -User-Friendly Interface
 
+-Modular Coding
+
 # 🛠️Technologies Used
 
 -Html
 
 -Css
+
+-SCSS
 
 # Screenshot
 
